@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+}
+
+body.index{
+    background: linear-gradient(to bottom, #86A8E7, #fb5ff3);
+
+}
+
+a { 
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen;
+}
+
+.top {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding-bottom: 40%;
+}
+
+.middle {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.bottom {
+    text-align: center;
+    background: linear-gradient(to right, #86A8E7, #fb5ff3);
+
+    height: 40px;
+}
+
+#describe_top {
+    position: absolute;
+    width: 100%;
+    color: maroon;
+    font-size: 170%;
+    padding-top: 25%;
+}
+
+#name {
+    position: absolute;
+    width: 100%;
+    color: aliceblue;
+    font-size: 370%;
+    padding-top: 15%;
+}
+
+#describe_bottom {
+    width: 100%;
+    font-size: 170%;
+    font-style: oblique;
+    margin-bottom: 130px;
+    color: cornsilk;
+}
+
+#self_pic {
+    padding-top: 50px;
+    height: 200px;
+}
+
+#greet {
+    font-size: xx-large;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#pc_pic {
+    width: 130px;
+    float: left;
+}
+
+#education{
+    position: absolute;
+    width: 10%;
+    margin: 10% 0 0 300px;
+    border: 5px solid #555;
+}
+
+.badminton {
+    position:absolute;
+    margin: 20% 0 0 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 30px 9px;
+    border-radius: 10%;
+}
+
+#badminton_pic{
+    width: 150px;
+}
+
+#sub {
+    clear: both;
+    padding-top: 60px;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+#lang{
+    width: 130px;
+    font-size: 17px;
+    padding-top: 11px;
+    margin-bottom: 13px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    border:0;
+    border-radius: 99px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 19px 24px;
+    margin-top: 110px;
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+
+.lang_left {
+    width: 50%;
+    float: left;
+    height: 150px;
+} 
+
+ .lang_right {
+    width:50%;
+    height: 150px;
+}
+
+.column {
+    display: inline-block;
+}
+
+img.sushi_pic{
+    width: 100px;
+    float: right;
+}
+
+.lang_row {
+    height: 100px;
+    width: 20%;
+    margin: 13px auto 70px;
+}
+
+.exp_left {
+    width:50%;
+    height: 100px;
+    float: right;
+    margin: 0 auto;
+}
+
+.exp_right {
+    width:50%;
+    height:100px;
+    float: left;
+}
+
+.exp_row {
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom:180px;
+}
+
+#exp_dt{
+    font-size: 17px;
+    float: right;
+}
+
+#exp_dd {
+    float: right;
+    font-size: 17px;
+}
+
+.skill_left {
+    width:50%;
+    float: left;
+    height: 100px;
+} 
+
+ .skill_right {
+    width:50%; 
+    float: left;
+    height: 100px;
+} 
+
+.skill_row {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto ;
+}
+
+#skill_dt{
+    font-size: 16px;
+    width: 80px;
+    float: left;
+    clear: left;
+
+}
+
+#skill_dd {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    padding: 0 0 0.5em 0;
+    float: left;
+    
+}
+
+dl.skill_dl {
+    width: 100%;
+    float: right;
+}
+
+#flag_pic{
+    width: 130px;
+    float: right;
+}
+
+hr.bottom_line{
+    margin-top: 50px;
+    border: px solid;
+    border-style: groove;
+    height: 4px;
+    background-color: lightblue;
+    
+}
+
+.card{
+    box-shadow: 1px 2px 3px 0 black;
+    transition: 0.3s;
+    width: 40%;
+    margin: 0 auto;
+    height: 400px;
+    background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+}
+
+#contact{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+}
+
+#message{
+    width: 300px;
+    height: 60px;
+}
+
+#input_name {
+    width: 300px;
+    height: 30px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+p.input_name{
+    font-family: 'Merriweather', serif;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+p.input_message{
+    font-family: 'Merriweather', serif;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+h1.contact_name{
+    font-family: 'Abyssinica SIL', serif;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+p.contact_address{
+    font-family: 'Abyssinica SIL', serif;
+    font-size: large;
+}
+
+#border {
+    border: 2px solid transparent;
+}
+
+hr.break{
+    border-style: dashed;
+    color: black;
+    width: 40%;
+    clear: both;
+}
+
+input.c_button{
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid #1a1a1a;
+    padding: 16px 24px;
+    margin-top: 16px;
+
+}
+
+input.c_button:hover{
+    background-color: #555;
+    cursor: pointer;
+}
