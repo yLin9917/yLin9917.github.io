@@ -2,7 +2,7 @@ body {
     margin: 0;
     background: linear-gradient(50deg , #ee7752, #fb5ff3, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-	animation: gradient 13s ease infinite;
+	animation: gradient 9s ease infinite;
  }
 
 @keyframes gradient {
